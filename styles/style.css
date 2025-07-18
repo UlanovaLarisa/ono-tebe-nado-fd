@@ -40,10 +40,9 @@
 
 .header_address {
   all: unset;
-  padding-left: 100px;
   max-width: 240px;
   list-style: none;
-  justify-self: end;
+  padding-left: 190px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

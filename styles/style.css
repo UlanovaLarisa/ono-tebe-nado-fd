@@ -15,8 +15,12 @@
 .header_menu {
   display: flex;
   flex-direction: row;
-  gap: 34px;
+  gap: 29px;
   list-style: circle;
+}
+
+.header__links-list-item {
+  padding-left: 5px;
 }
 
 .header__links-list-item_no-bullit {
@@ -123,7 +127,6 @@
 }
 
 .description__subtitle {
-  align-items: flex-end;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -149,7 +152,6 @@
   font-weight: 500;
   font-style: normal;
   font-size: 22px;
-  line-height: 22px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -380,7 +382,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 1px;
+  padding-left: 26px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: normal;

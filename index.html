@@ -15,13 +15,15 @@
     <header class="header">
       <nav>
         <ul class="header__menu">
-          <li class="header__links-list-item_no-bullit">
-            <a href="#">главная</a>
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a class="link header__link_active" href="#">главная</a>
           </li>
           <li class="header__links-list-item">
-            <a href="#">посмотреть лоты</a>
+            <a class="link" href="#">посмотреть лоты</a>
           </li>
-          <li class="header__links-list-item"><a href="#">об аукционе</a></li>
+          <li class="header__links-list-item">
+            <a class="link" href="#">об аукционе</a>
+          </li>
         </ul>
       </nav>
 
@@ -33,11 +35,13 @@
         />
       </a>
 
-      <address class="header__address">
-        <ul class="address">
-          <li><a href="tel:+99995555555">+9 999 555 5555</a></li>
-          <li><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
-          <li>наб. Принсенграхт 263<br />–265, Амстердам</li>
+      <address class="address">
+        <ul class="header__address">
+          <li><a class="link" href="tel:+99995555555">+9 999 555 5555</a></li>
+          <li>
+            <a class="link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          </li>
+          <li>наб. Принсенграхт 263-<br />265, Амстердам</li>
         </ul>
       </address>
     </header>
@@ -49,11 +53,11 @@
 
         <div class="cover__content">
           <h1 class="title">
-            <span class="title__first-word">ОНО</span>
-            <span class="title__second-word"
+            <span class="title__word--lead">ОНО</span>
+            <span class="title__word--middle"
               >ТЕБ<span class="title__tebe-last-letter">Е</span></span
             >
-            <span class="title__third-word"
+            <span class="title__word--accent"
               >НАД<span class="title__tebe-last-letter">О</span></span
             >
           </h1>
@@ -177,17 +181,25 @@
     <footer class="footer">
       <address class="address">
         <ul class="footer_address">
-          <li><a href="tel:+99995555555">+9 999 555 5555</a></li>
-          <li><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
+          <li><a class="link" href="tel:+99995555555">+9 999 555 5555</a></li>
+          <li>
+            <a class="link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          </li>
           <li>наб. Принсенграхт 263–265, Амстердам</li>
         </ul>
       </address>
 
       <nav class="footer__menu">
         <ul class="footer__menu-list">
-          <li class="footer__menu-link_active"><a href="#">главная</a></li>
-          <li class="footer__menu-link"><a href="#">посмотреть лоты</a></li>
-          <li class="footer__menu-link"><a href="#">об аукционе</a></li>
+          <li class="footer__menu-link">
+            <a class="link footer__menu-link_active" href="#">главная</a>
+          </li>
+          <li class="footer__menu-link menu-offset">
+            <a class="link" href="#">посмотреть лоты</a>
+          </li>
+          <li class="footer__menu-link menu-offset">
+            <a class="link" href="#">об аукционе</a>
+          </li>
         </ul>
       </nav>
 
